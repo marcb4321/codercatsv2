@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
 
   <meta charset="utf-8">
@@ -5,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Welcome to Codercats - Automated qualitative coding software</title>
+  <title>Welcome to Codercats - Automated qualitative coding softare</title>
 
   <!-- Bootstrap core CSS -->
 
@@ -22,6 +25,8 @@
   <!-- Custom styles for this template -->
   <link href="{{ url_for('static', filename='css/freelancer.css') }}" rel="stylesheet">
 
+  <!-- Custom style for login-register form -->
+  <link href="{{ url_for('static', filename='css/login-register-flipper.css') }}" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -37,19 +42,19 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">What is Codercats?</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="{{ url_for('whatiscodercats') }}">What is Codercats?</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#howitworks">How it works</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="{{ url_for('howitworks') }}">How it works</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#tryitnow">Try It Now</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="{{ url_for('tryitnow') }}">Try It Now</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="{{ url_for('contact') }}">Contact</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Log In</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="{{ url_for('loginregister') }}"">Log In</a>
           </li>
         </ul>
       </div>
