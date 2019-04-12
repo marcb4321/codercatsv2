@@ -19,10 +19,6 @@ h6 {
   font-family: 'Montserrat';
 }
 
-ul {
-  font-weight: 20;
-  font-family: 'Montserrat';
-}
 
 hr.star-light,
 hr.star-dark {
@@ -179,13 +175,13 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: calc(3rem + 20px);
-  padding-bottom: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 header.masthead h1 {
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 1rem;
+  line-height: 1rem;
 }
 
 header.masthead h2 {
