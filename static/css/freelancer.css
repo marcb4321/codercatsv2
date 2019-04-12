@@ -180,12 +180,12 @@ header.masthead {
 }
 
 header.masthead h1 {
-  font-size: 1rem;
+  font-size: 0.3rem;
   line-height: 1rem;
 }
 
 header.masthead h2 {
-  font-size: 1.3rem;
+  font-size: 0.8rem;
   font-family: 'Lato';
 }
 
