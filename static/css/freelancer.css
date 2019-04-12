@@ -14,7 +14,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+font-size: 10px;
+  font-weight: 100;
+  font-family: 'Montserrat';
+}
+
+ul {
+  font-weight: 20;
   font-family: 'Montserrat';
 }
 
@@ -104,8 +110,8 @@ section h2 {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
   font-weight: 700;
   font-family: 'Montserrat';
 }
@@ -173,8 +179,8 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: calc(6rem + 72px);
-  padding-bottom: 6rem;
+  padding-top: calc(3rem + 20px);
+  padding-bottom: 3rem;
 }
 
 header.masthead h1 {
