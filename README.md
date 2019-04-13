@@ -14,6 +14,7 @@ Get the files - .pdf, API / create a project
 Project repository Coding - manual and automated (with suggestions) Analysis - statistics, semantic, thematic, Visualisation - wordclouds, graphs
 
 What is CoderCats?
+
 •	Machine learning tools
 Machine learning brings a quantitative touch to your qualitative research. It helps you to analyse your documents and can even suggest appropriate codes for your key words.
 
