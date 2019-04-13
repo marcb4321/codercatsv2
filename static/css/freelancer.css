@@ -64,7 +64,7 @@ hr.star-dark:after {
 }
 
 section {
-  padding: 6rem 0;
+  padding: 3rem 0;
 }
 
 section h2 {
@@ -144,8 +144,8 @@ section h2 {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
@@ -191,12 +191,13 @@ header.masthead h2 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(6rem + 106px);
-    padding-bottom: 6rem;
+    padding-top: calc(1rem + 106px);
+    padding-bottom: 2rem;
   }
   header.masthead h1 {
-    font-size: 4.75em;
+    font-size: 3.75em;
     line-height: 4rem;
+    font-weight: bold;
   }
   header.masthead h2 {
     font-size: 1.75em;
