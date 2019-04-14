@@ -33,7 +33,7 @@ You don’t need to install software and can access your research anywhere.
 
 •	Textual data formats
 
-.Doc, .pdf., .txt, .xls, csv., .html.
+.Doc, .pdf., .txt, .xls, .csv, .html.
 
 •	API integration
 
