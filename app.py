@@ -4,7 +4,7 @@ from flask import Flask, render_template, redirect, url_for
 app = Flask(__name__)
 
 @app.route("/")
-def say_hello():
+def home():
   return render_template("index.html")
 
 
@@ -12,23 +12,25 @@ def say_hello():
 def loginregister():
     return render_template("loginregister.html")
 
-
+@app.route("/tryitnowpg")
+def tryitnowpg():
+    return render_template("tryitnow.html")
 
 @app.route('/whatiscodercats')
 def whatiscodercats():
-    return redirect(url_for('say_hello',_anchor='whatiscodercats'))
+    return redirect(url_for('home',_anchor='whatiscodercats'))
 
 @app.route('/howitworks')
 def howitworks():
-    return redirect(url_for('say_hello',_anchor='howitworks'))
+    return redirect(url_for('home',_anchor='howitworks'))
 
 @app.route('/tryitnow')
 def tryitnow():
-    return redirect(url_for('say_hello',_anchor='tryitnow'))
+    return redirect(url_for('home',_anchor='tryitnow'))
 
 @app.route('/contact')
 def contact():
-    return redirect(url_for('say_hello',_anchor='contact'))
+    return redirect(url_for('home',_anchor='contact'))
 
 from datetime import datetime
 @app.context_processor
