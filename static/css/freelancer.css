@@ -215,6 +215,9 @@ header.masthead h2 {
     max-width: 100% !important;
     flex: 100 !important;
 }
+
+
+
 .portfolio {
   margin-bottom: -15px;
 }
@@ -258,6 +261,9 @@ header.masthead h2 {
   }
   .portfolio .portfolio-item {
     margin-bottom: 30px;
+  }
+  .col-sm {
+  text-align: center; 
   }
 }
 
@@ -410,4 +416,13 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
+}
+
+
+
+
+#names{
+	margin-top: 40px;
+	text-align: center;
+	font-weight: bold;
 }
