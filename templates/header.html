@@ -18,6 +18,11 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+
+  <!-- Custom fonts for dashboard template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
   <!-- Plugin CSS -->
   <link href="{{ url_for('static', filename='vendor/magnific-popup/magnific-popup.css') }}" rel="stylesheet" type="text/css">
 
@@ -26,6 +31,9 @@
 
   <!-- Custom style for login-register form -->
   <link href="{{ url_for('static', filename='css/login-register-flipper.css') }}" rel="stylesheet">
+
+  <!-- Custom style for dashboard -->
+  <link href="{{ url_for('static', filename='css/sb-admin-2.css') }}" rel="stylesheet">
 
   <!-- Custom style for annotator -->
   <link href="{{ url_for('static', filename='css/annotator.min.css') }}" rel="stylesheet">
@@ -88,7 +96,7 @@
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="{{ url_for('contact') }}">Contact</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="{{ url_for('loginregister') }}">Log In</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="{{ url_for('login') }}">Log In</a>
           </li>
         </ul>
       </div>

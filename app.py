@@ -8,9 +8,9 @@ def home():
   return render_template("index.html")
 
 
-@app.route("/loginregister")
-def loginregister():
-    return render_template("loginregister.html")
+@app.route("/login")
+def login():
+    return render_template("login.html")
 
 @app.route("/tryitnowpg")
 def tryitnowpg():
