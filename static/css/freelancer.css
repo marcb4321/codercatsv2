@@ -157,7 +157,7 @@ section h2 {
     transition: font-size 0.3s;
   }
   #mainNav .navbar-nav {
-    margin-top: 0;
+    margin-top: 1rem;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
