@@ -392,7 +392,8 @@ a:focus, a:hover, a:active {
 
 .text-secondary {
   color: #2C3E50 !important;
-  padding-bottom: 20px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   font-size: 2rem;
   line-height: 2rem;
   font-weight: bold;
