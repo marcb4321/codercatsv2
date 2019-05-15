@@ -64,7 +64,7 @@ hr.star-dark:after {
 }
 
 section {
-  padding: 3rem 0;
+  padding: 1rem 0;
 }
 
 section h2 {
@@ -228,7 +228,6 @@ header.masthead h2 {
   max-width: 25rem;
   margin-bottom: 15px;
   text-align: center;
-
 }
 
 .text-uppercase {
