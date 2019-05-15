@@ -64,7 +64,7 @@ hr.star-dark:after {
 }
 
 section {
-  padding: 3rem 0;
+  padding: 1rem 0;
 }
 
 section h2 {
@@ -157,7 +157,7 @@ section h2 {
     transition: font-size 0.3s;
   }
   #mainNav .navbar-nav {
-    margin-top: 0;
+    margin-top: 1rem;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
@@ -228,7 +228,6 @@ header.masthead h2 {
   max-width: 25rem;
   margin-bottom: 15px;
   text-align: center;
-
 }
 
 .text-uppercase {
@@ -263,7 +262,7 @@ header.masthead h2 {
     margin-bottom: 30px;
   }
   .col-sm {
-  text-align: center; 
+  text-align: center;
   }
 }
 
@@ -309,7 +308,7 @@ header.masthead h2 {
 
 .floating-label-form-group input,
 .floating-label-form-group textarea {
-  font-size: 1.5em;
+  font-size: 1em;
   position: relative;
   z-index: 1;
   padding-right: 0;
@@ -356,8 +355,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: #2C3E50;
   color: #fff;
 }
@@ -392,10 +391,12 @@ a:focus, a:hover, a:active {
 
 .text-secondary {
   color: #2C3E50 !important;
-  padding-bottom: 20px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   font-size: 2rem;
   line-height: 2rem;
   font-weight: bold;
+  margin-top: 20px;
 }
 
 .btn-primary {
@@ -416,13 +417,4 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
-}
-
-
-
-
-#names{
-	margin-top: 40px;
-	text-align: center;
-	font-weight: bold;
 }
