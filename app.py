@@ -12,6 +12,10 @@ def home():
 def login():
     return render_template("login.html")
 
+@app.route("/register")
+def register():
+    return render_template("register.html")
+
 @app.route("/tryitnowpg")
 def tryitnowpg():
     return render_template("tryitnow.html")
