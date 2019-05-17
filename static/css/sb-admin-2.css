@@ -485,9 +485,6 @@ mark,
   content: "\2014\00A0";
 }
 
-.img-fluid {
-  max-width: 50%;
-}
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -559,6 +556,7 @@ pre code {
   padding-left: 0.75rem;
   margin-right: auto;
   margin-left: auto;
+  text-align: center;
 }
 
 @media (min-width: 576px) {
@@ -11591,8 +11589,8 @@ a:focus {
 }
 
 .bg-register-image {
-  background: url("https://source.unsplash.com/Mv9hjnEUHR4/600x800");
-  background-position: center;
+  background: url("https://cdn.pixabay.com/photo/2014/02/27/16/08/pallas-cat-275930_1280.jpg");
+  background-position: inherit;
   background-size: cover;
 }
 
