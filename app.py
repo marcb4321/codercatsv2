@@ -41,7 +41,6 @@ def contact():
     return redirect(url_for('home',_anchor='contact'))
 
 
-
 @app.route("/dashboard")
 def dashboard():
     return render_template("dashboard.html")
