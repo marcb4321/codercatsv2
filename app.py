@@ -40,6 +40,15 @@ def tryitnow():
 def contact():
     return redirect(url_for('home',_anchor='contact'))
 
+
+
+@app.route("/dashboard")
+def dashboard():
+    return render_template("dashboard.html")
+
+
+
+
 from datetime import datetime
 @app.context_processor
 def inject_now():
