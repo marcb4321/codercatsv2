@@ -246,6 +246,12 @@ header.masthead h2 {
   height: 100px;
 }
 
+.img-sm {
+width: 1rem;
+margin-top: -0.2rem;
+}
+
+
 .portfolio .portfolio-item .portfolio-item-caption {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
