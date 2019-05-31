@@ -343,7 +343,7 @@
           <!-- Upload section -->
           <section class="portfolio" id="whatiscodercats">
             <div class="container">
-              <h2 class="text-center text-uppercase text-secondary mb-0">Start coding</h2>
+              <h2 class="text-center text-uppercase text-secondary mb-0">Upload your files</h2>
               <script>$("#input-id").fileinput({'showUpload':false, 'previewFileType':'any'})</script>
               <input id="input-id" type="file" class="file" data-preview-file-type="text">
             </div>
@@ -627,16 +627,6 @@
       </div>
       <!-- End of Main Content -->
 
-      <!-- Footer -->
-      <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-          <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website 2019</span>
-          </div>
-        </div>
-      </footer>
-      <!-- End of Footer -->
-
     </div>
     <!-- End of Content Wrapper -->
 
@@ -666,6 +656,7 @@
       </div>
     </div>
   </div>
+  <iframe src='https://view.officeapps.live.com/op/embed.aspx?src=http://remote.url.tld/path/to/document.doc' width='1366px' height='623px' frameborder='0'>This is an embedded <a target='_blank' href='http://office.com'>Microsoft Office</a> document, powered by <a target='_blank' href='http://office.com/webapps'>Office Online</a>.</iframe>
 
   <!-- Bootstrap core JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -684,6 +675,11 @@
   <script src="js/demo/chart-area-demo.js"></script>
   <script src="js/demo/chart-pie-demo.js"></script>
 
-</body>
+  <!--Annotator script -->
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+      var ann = new Annotator(document.body)
+  }, false);
+  </script>
 
-</html>
+{% include "footer.html" %}
