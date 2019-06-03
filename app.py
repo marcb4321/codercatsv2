@@ -7,6 +7,10 @@ app = Flask(__name__)
 def home():
   return render_template("index.html")
 
+@app.route("/buttonAction")
+def button_action():
+    # run the Python magic
+    return 'It worked'
 
 @app.route("/login")
 def login():
